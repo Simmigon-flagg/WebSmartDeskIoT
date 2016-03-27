@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php include dbconnect.php ?>
+
+<?php
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
@@ -55,9 +57,9 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="#">My Child</a></li>
-        <li><a href="#">Activities</a></li>
+        <li class="active"><a href="#">Activities</a></li>
         <li><a href="#">Progress</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -71,8 +73,13 @@
   <div class="row content">
     
     <div class="col-sm-12 text-left"> 
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1>Activities</h1>
+		<div class="table-responsive">
+			<table class="table">
+			
+			</table>
+		</div>
+		
       <hr>
 	  
 </div>
@@ -89,3 +96,4 @@
 
 </body>
 </html>
+?>
