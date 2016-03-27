@@ -11,6 +11,5 @@ if (!$conn->connect_error) {
    die("Connection failed: " . $conn->connect_error);
 }else{
 	echo "pass";
-	<h1>pass</h1>
 }
 ?>
