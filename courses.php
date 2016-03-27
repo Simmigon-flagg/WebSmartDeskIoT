@@ -55,10 +55,13 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">My Child</a></li>
+        <li class="active"><a href="#">Courses</a></li>
+        <li><a href="#">Progress</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -68,8 +71,13 @@
   <div class="row content">
     
     <div class="col-sm-12 text-left"> 
-      <h1>Welcome</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h1>Courses</h1>
+	  <li><a href="math.html">Math</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">Social Studies</a></li>
+		<li><a href="#">Elective: Computer Science</a></li>
+      
       <hr>
 	  
 </div>
