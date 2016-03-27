@@ -1,7 +1,7 @@
 <?php include dbconnect.php ?>
 
 <?php
-<html lang="en">
+<html>
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
