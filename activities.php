@@ -1,9 +1,8 @@
-<?php include dbconnect.php ?>
-
-<?php
+<?php include 'dbconnect.php'; ?>
+<!--<?php include 'SelectAll.php'; ?>-->
 <html>
 <head>
-  <title>Bootstrap Example</title>
+  <title>Smart Desk</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -74,11 +73,30 @@
     
     <div class="col-sm-12 text-left"> 
       <h1>Activities</h1>
-		<div class="table-responsive">
-			<table class="table">
-			
-			</table>
-		</div>
+	  
+		<table class="table table-striped table-bordered table-hover" id="dataTables-example">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Activity</th>
+            <th>Grade</th>
+        </tr>
+    </thead>
+    
+  <!--  <tbody>
+      <?php while ($row = mysqli_fetch_array($result)) { ?>
+          <tr>
+            <td><?php echo $row[0]; ?></td>
+            <td><?php echo $row[1]; ?></td>
+            <td><?php echo $row[2]; ?></td>
+            <td><?php echo $row[3]; ?></td>
+            <td><?php echo $row[4]; ?></td>
+          </tr>
+      <?php } ?>
+    </tbody> -->
+</table>
 		
       <hr>
 	  
@@ -96,4 +114,3 @@
 
 </body>
 </html>
-?>
